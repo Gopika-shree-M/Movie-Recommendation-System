@@ -5,8 +5,8 @@ import requests
 
 # Proxy configuration
 proxy = {
-    'http': 'http://154.94.12.38:3128',
-    'https': 'http://154.94.12.38:3128',
+    'http': 'http://104.207.59.93:3128',
+    'https': 'http://104.207.59.93:3128',
 }
 
 def fetch_poster(movie_id):
