@@ -1,0 +1,31 @@
+dataset -> preprocessing -> model -> website -> deploy
+
+required columns:
+- genres
+- id
+- keywords
+- overview
+- title
+- cast
+- crew
+
+final columns
+- id
+- title
+- tags
+
+text to vector
+- bag of words
+- Word 2 vec
+- tfidf
+
+stops words => are , is , was
+
+donot calculate euclidian distance
+in hoigher dimensions euclidian distance is not reliable
+distance between 2 tips
+
+calculate cosine distance => angle between vectors
+
+using pickle for data dumping
+using streamlit for app building
